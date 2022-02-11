@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VisitorSignInSystem.Server</name>
+    </assembly>
+    <members>
+        <member name="M:VisitorSignInSystem.Server.BLL.ComplexProcedures.QueueCountByAgent(System.String)">
+            <summary>
+            Return queue count by agent name
+            </summary>
+            <param name="agent_name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VisitorSignInSystem.Server.BLL.ComplexProcedures.DisplayDisambiguatorVisitor(VisitorSignInSystem.Server.Models.Visitor)">
+            <summary>
+            Modify visitor display name if any other visitors in queue have the same first name
+            </summary>
+            <param name="visitor"></param>
+            <returns>
+            Unique DisplayName for visitor
+            </returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:VisitorSignInSystem.Server.BLL.ComplexProcedures.DisplayDisambiguator(System.Collections.Generic.List{VisitorSignInSystem.Server.Models.Visitor})" -->
+        <member name="M:VisitorSignInSystem.Server.Hubs.vsisHub.SendVisitorToDisplays(System.Int32,VisitorSignInSystem.Server.Models.Visitor)">
+            <summary>
+            Send newly added visitor to display
+            </summary>
+            <param name="location"></param>
+            <param name="visitor"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
