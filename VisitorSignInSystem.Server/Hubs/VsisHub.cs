@@ -399,8 +399,8 @@ namespace VisitorSignInSystem.Server.Hubs
             {
                 // The recipient needs to be in in table wait_time_notify for the category
                 VsisMail mail = new VsisMail(
-                    "no-reply@manateepao.com",
-                    "'MCPAO VSIS' <no-reply@manateepao.com>",
+                    "no-reply@xxxxxxxxx.com",
+                    "'MCPAO VSIS' <no-reply@xxxxxxxxx.com>",
                     notifer.Mail,
                     $"VSIS - {cat_descr} Alert",
                     "",
