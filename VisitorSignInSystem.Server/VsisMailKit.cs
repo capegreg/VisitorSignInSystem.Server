@@ -12,12 +12,12 @@ namespace VisitorSignInSystem.Mail
 			try
 			{
 
-				const string _SMTP = "mail.manateepao.com";
+				const string _SMTP = "xxxxxxxxx";
 				const int _PORT = 25;
 
 				var message = new MimeMessage();
-				message.From.Add(new MailboxAddress("'MCPAO AerialMaker' <no-reply@manateepao.com>", "no-reply@manateepao.com"));
-				message.To.Add(new MailboxAddress("Gregory Bologna", "gregory.bologna@manateepao.com"));
+				message.From.Add(new MailboxAddress("'MCPAO AerialMaker' <no-reply@xxxxxxxxx.com>", "no-reply@xxxxxxxxx.com"));
+				message.To.Add(new MailboxAddress("Gregory Bologna", "xxxxxxxxx"));
 				message.Subject = "test";
 
 				message.Body = new TextPart("plain")
